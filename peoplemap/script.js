@@ -57,7 +57,7 @@ d3.json('people.json', (error, graph) => {
       div.transition()
         .duration(200)
         .style('opacity', 0.9);
-      div.html(`${d.id}<br/>Group: ${d.g}`)
+      div.html(`${d.id}<br/>Color: ${d.g}`)
     })
     .on('mouseout', () => {
       div.transition()
