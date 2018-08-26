@@ -1,0 +1,28 @@
+{
+  "name": "tsor",
+  "version": "1.0.0",
+  "description": "A repo for tsor related things",
+  "main": "",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coalpha/tsor.git"
+  },
+  "author": "Cole Gannon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coalpha/tsor/issues"
+  },
+  "homepage": "https://github.com/Coalpha/tsor#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.2.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
