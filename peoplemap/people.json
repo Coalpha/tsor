@@ -76,6 +76,7 @@
 
     {"source": "SACKBOI", "target": "uhs"},
 
+    {"source": "kroagnon", "target": "Beetle"},
     {"source": "kroagnon", "target": "Pugman"},
     {"source": "kroagnon", "target": "Fallen"},
     {"source": "kroagnon", "target": "d.tech"},
@@ -90,6 +91,8 @@
 
     {"source": "Fallen", "target": "Pugman"},
     {"source": "Fallen", "target": "d.tech"},
+    
+    {"source": "Beetle", "target": "theparanoidandroid2358"},
 
     {"source": "Pugman", "target": "d.tech"}
   ]
