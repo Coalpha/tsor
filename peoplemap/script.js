@@ -9,7 +9,7 @@ const div = d3.select('body').append('div')
   .style('opacity', 0);
 
 const simulation = d3.forceSimulation()
-  .force('link', d3.forceLink().id(d => d.id).strength(0.1))
+  .force('link', d3.forceLink().id(d => d.id).strength(0.15))
   .force('charge', d3.forceManyBody().strength(-500))
   .force('center', d3.forceCenter(width / 2, height / 2));
 const dragstarted = (d) => {
