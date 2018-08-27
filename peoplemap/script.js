@@ -8,11 +8,9 @@ const div = d3.select('body').append('div')
   .attr('class', 'tooltip')
   .style('opacity', 0);
 
-const color = d3.scaleOrdinal(d3.schemeCategory20);
-const manyBody = d3.forceManyBody();
 const simulation = d3.forceSimulation()
-  .force('link', d3.forceLink().id(d => d.id).strength(0.01))
-  .force('charge', manyBody)
+  .force('link', d3.forceLink().id(d => d.id).strength(0.1))
+  .force('charge', d3.forceManyBody().strength(-500))
   .force('center', d3.forceCenter(width / 2, height / 2));
 const dragstarted = (d) => {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -47,7 +45,7 @@ d3.json('people.json', (error, graph) => {
     .data(graph.nodes)
     .enter()
     .append('circle')
-    .attr('r', 10)
+    .attr('r', d => d.s || 10)
     .attr('fill', d => d.g || 'black')
     .call(d3.drag()
       .on('start', dragstarted)

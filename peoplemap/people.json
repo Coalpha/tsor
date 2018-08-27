@@ -20,7 +20,11 @@
     {"id": "Beetle"},
     {"id": "Pugman"},
     {"id": "Jaggy"},
-    {"id": "hailstorm"}
+    {"id": "hailstorm"},
+    {"id": "d.tech", "g": "orange", "s": 15},
+    {"id": "charter", "g": "pink", "s": 20},
+    {"id": "uhs", "g": "green", "s": 15},
+    {"id": "carlmont", "g": "blue", "s": 15}
   ],
   "links": [
     {"source": "Coalpha", "target": "CTT"},
@@ -30,6 +34,8 @@
     {"source": "Coalpha", "target": "j1ng3r"},
     {"source": "Coalpha", "target": "jase"},
     {"source": "Coalpha", "target": "kroagnon"},
+    {"source": "Coalpha", "target": "charter"},
+    {"source": "Coalpha", "target": "d.tech"},
 
     {"source": "CTT", "target": "Lumi"},
     {"source": "CTT", "target": "SpockFan02"},
@@ -37,15 +43,54 @@
     {"source": "CTT", "target": "kroagnon"},
     {"source": "CTT", "target": "TheAtkins"},
     {"source": "CTT", "target": "Loaf"},
+    {"source": "CTT", "target": "charter"},
+    {"source": "CTT", "target": "carlmont"},
+
     {"source": "Lumi", "target": "SpockFan02"},
     {"source": "Lumi", "target": "nolank"},
     {"source": "Lumi", "target": "kroagnon"},
+    {"source": "Lumi", "target": "TheAtkins"},
+    {"source": "Lumi", "target": "charter"},
+    {"source": "Lumi", "target": "carlmont"},
+
     {"source": "SpockFan02", "target": "legodude17"},
     {"source": "SpockFan02", "target": "nolank"},
     {"source": "SpockFan02", "target": "kroagnon"},
     {"source": "SpockFan02", "target": "Loaf"},
     {"source": "SpockFan02", "target": "mayaiscold"},
+    {"source": "SpockFan02", "target": "SACKBOI"},
+    {"source": "SpockFan02", "target": "thesacredbagel"},
+    {"source": "SpockFan02", "target": "hailstorm"},
+    {"source": "SpockFan02", "target": "charter"},
+    {"source": "SpockFan02", "target": "uhs"},
+
     {"source": "legodude17", "target": "j1ng3r"},
-    {"source": "legodude17", "target": "kroagnon"}
+    {"source": "legodude17", "target": "kroagnon"},
+    {"source": "legodude17", "target": "d.tech"},
+    {"source": "legodude17", "target": "charter"},
+
+    {"source": "Golddragon387", "target": "TheAtkins"},
+    {"source": "Golddragon387", "target": "carlmont"},
+
+    {"source": "j1ng3r", "target": "d.tech"},
+
+    {"source": "SACKBOI", "target": "uhs"},
+
+    {"source": "kroagnon", "target": "Pugman"},
+    {"source": "kroagnon", "target": "Fallen"},
+    {"source": "kroagnon", "target": "d.tech"},
+    {"source": "kroagnon", "target": "charter"},
+
+    {"source": "TheAtkins", "target": "carlmont"},
+
+    {"source": "Loaf", "target": "Jaggy"},
+    {"source": "Loaf", "target": "uhs"},
+
+    {"source": "mayaiscold", "target": "uhs"},
+
+    {"source": "Fallen", "target": "Pugman"},
+    {"source": "Fallen", "target": "d.tech"},
+
+    {"source": "Pugman", "target": "d.tech"}
   ]
 }
