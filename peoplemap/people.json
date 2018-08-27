@@ -24,8 +24,8 @@
     {"id": "d.tech", "g": "orange", "s": 15},
     {"id": "charter", "g": "pink", "s": 20},
     {"id": "uhs", "g": "green", "s": 15},
-    {"id": "carlmont", "g": "blue", "s": 15}
-    {"id": "D&D", "g": "darkgreen", "s": 20},
+    {"id": "carlmont", "g": "blue", "s": 15},
+    {"id": "D&D", "g": "darkgreen", "s": 20}
   ],
   "links": [
     {"source": "Coalpha", "target": "CTT"},
@@ -97,12 +97,12 @@
     {"source": "Fallen", "target": "Pugman"},
     {"source": "Fallen", "target": "d.tech"},
     {"source": "Fallen", "target": "D&D"},
-    
+
     {"source": "Beetle", "target": "theparanoidandroid2358"},
-    
+
     {"source": "theparanoidandroid2358", "target": "D&D"},
 
-    {"source": "Pugman", "target": "d.tech"}
-    {"source": "Pugman", "target": "D&D"},
+    {"source": "Pugman", "target": "d.tech"},
+    {"source": "Pugman", "target": "D&D"}
   ]
 }
