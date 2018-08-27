@@ -25,6 +25,7 @@
     {"id": "charter", "g": "pink", "s": 20},
     {"id": "uhs", "g": "green", "s": 15},
     {"id": "carlmont", "g": "blue", "s": 15}
+    {"id": "D&D", "g": "darkgreen", "s": 20},
   ],
   "links": [
     {"source": "Coalpha", "target": "CTT"},
@@ -45,6 +46,7 @@
     {"source": "CTT", "target": "Loaf"},
     {"source": "CTT", "target": "charter"},
     {"source": "CTT", "target": "carlmont"},
+    {"source": "CTT", "target": "D&D"},
 
     {"source": "Lumi", "target": "SpockFan02"},
     {"source": "Lumi", "target": "nolank"},
@@ -63,6 +65,7 @@
     {"source": "SpockFan02", "target": "hailstorm"},
     {"source": "SpockFan02", "target": "charter"},
     {"source": "SpockFan02", "target": "uhs"},
+    {"source": "SpockFan02", "target": "D&D"},
 
     {"source": "legodude17", "target": "j1ng3r"},
     {"source": "legodude17", "target": "kroagnon"},
@@ -81,19 +84,25 @@
     {"source": "kroagnon", "target": "Fallen"},
     {"source": "kroagnon", "target": "d.tech"},
     {"source": "kroagnon", "target": "charter"},
+    {"source": "kroagnon", "target": "D&D"},
 
     {"source": "TheAtkins", "target": "carlmont"},
 
     {"source": "Loaf", "target": "Jaggy"},
     {"source": "Loaf", "target": "uhs"},
+    {"source": "Loaf", "target": "D&D"},
 
     {"source": "mayaiscold", "target": "uhs"},
 
     {"source": "Fallen", "target": "Pugman"},
     {"source": "Fallen", "target": "d.tech"},
+    {"source": "Fallen", "target": "D&D"},
     
     {"source": "Beetle", "target": "theparanoidandroid2358"},
+    
+    {"source": "theparanoidandroid2358", "target": "D&D"},
 
     {"source": "Pugman", "target": "d.tech"}
+    {"source": "Pugman", "target": "D&D"},
   ]
 }
